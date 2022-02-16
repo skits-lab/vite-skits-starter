@@ -1,5 +1,3 @@
-import './shared/styles/global.scss';
-
 const App = () => {
   return (
     <div>
