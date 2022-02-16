@@ -1,0 +1,13 @@
+const env = import.meta.env;
+
+export const appEnv = {
+  APP_NAME: env.SKITS_APP_NAME || 'Skits Lab',
+  APP_URL: env.SKITS__APP_URL || 'http://localhost:3000',
+  API_URL: env.SKITS__API_URL || 'http://localhost:5001',
+  FIREBASE_API_KEY: env.SKITS__FIREBASE_API_KEY || '',
+  FIREBASE_AUTH_DOMAIN: env.SKITS__FIREBASE_AUTH_DOMAIN || '',
+  FIREBASE_PROJECT_ID: env.SKITS__FIREBASE_PROJECT_ID || '',
+  FIREBASE_STORAGE_BUCKET: env.SKITS__FIREBASE_STORAGE_BUCKET || '',
+  FIREBASE_MESSAGING_SENDER_ID: env.SKITS__FIREBASE_MESSAGING_SENDER_ID || '',
+  FIREBASE_APP_ID: env.SKITS__FIREBASE_APP_ID || '',
+};
